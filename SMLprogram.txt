@@ -1,0 +1,13 @@
+f0 lin 20 4
+f1 lin 21 1
+f2 add 22 20 21
+f3 mul 18 20 21
+f4 div 17 20 21
+f5 sub 16 17 21
+f6 sub 20 20 21
+f7 bnz 20 f6
+f8 out 16
+f9 lin 1 -4
+f10 lin 2 1
+f11 add 1 1 2
+f12 bnz 1 f11
